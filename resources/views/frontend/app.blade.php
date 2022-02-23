@@ -16,6 +16,7 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 <body>
+  @include('sweetalert::alert')
     <!-- NavBar -->
     <div class="address ">
        <div class="icons">
@@ -135,7 +136,7 @@
         
       </div>
       <div class="donate-now" data-aos="flip-left">
-        <a href=""><button type="button" class="btn btn-lg btn-donate button-glow" >Donate Now</button></a>
+        <a href="/donor/create"><button type="button" class="btn btn-lg btn-donate button-glow" >Donate Now</button></a>
       </div>
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
